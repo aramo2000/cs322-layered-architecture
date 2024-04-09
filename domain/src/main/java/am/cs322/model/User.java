@@ -14,6 +14,9 @@ public class User {
     private String firstName;
     private String lastName;
 
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Bank bank ;
+
     public User() {
 
     }
@@ -43,4 +46,8 @@ public class User {
     public String getLastName() {
         return lastName;
     }
+
+    public void setBank(Bank bank) { this.bank = bank; }
+
+    public Bank getBank() { return bank; }
 }
