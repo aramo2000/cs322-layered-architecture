@@ -1,4 +1,4 @@
-package am.cs322.model;
+package am.cs322.presentation.model;
 
 import jakarta.annotation.Nonnull;
 

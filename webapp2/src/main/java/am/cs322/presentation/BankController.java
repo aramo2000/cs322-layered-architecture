@@ -1,7 +1,7 @@
-package am.cs322;
+package am.cs322.presentation;
 
-import am.cs322.model.CreateBankAccountRequest;
-import am.cs322.model.TransactionRequest;
+import am.cs322.presentation.model.CreateBankAccountRequest;
+import am.cs322.presentation.model.TransactionRequest;
 import am.cs322.model.BankDTO;
 
 public interface BankController {

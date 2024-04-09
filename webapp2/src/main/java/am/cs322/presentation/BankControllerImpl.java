@@ -1,9 +1,9 @@
-package am.cs322;
+package am.cs322.presentation;
 
+import am.cs322.BankService;
 import am.cs322.model.BankDTO;
-import am.cs322.model.CreateBankAccountRequest;
-import am.cs322.model.TransactionRequest;
-import org.springframework.beans.factory.annotation.Value;
+import am.cs322.presentation.model.CreateBankAccountRequest;
+import am.cs322.presentation.model.TransactionRequest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
